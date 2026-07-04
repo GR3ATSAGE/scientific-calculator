@@ -1,5 +1,9 @@
 # 🧮 Scientific Calculator
 
+🌐 **Live Demo:** https://gr3atsage.github.io/scientific-calculator/
+
+💻 **Source Code:** https://github.com/GR3ATSAGE/scientific-calculator
+
 A modern scientific calculator built using **HTML**, **CSS**, and **JavaScript**.
 
 ## Features
