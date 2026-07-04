@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="calculator">
+            <p>CALCULATOR</p>
+
+            <div id="display">0</div>
+
+            <div class="top-row">
+                <button id="theme-toggle" data-key="theme-toggle">🌙</button>
+                <button id="history" data-key="history">HIST⏲RY</button>
+            </div>
+
+            <div class="keys">
+                <button data-key="second">2nd</button>
+                <button data-key="paren-open">(</button>
+                <button data-key="paren-close">)</button>
+                <button data-key="pow10">10ˣ</button>
+                <button data-key="mc">mc</button>
+                <button data-key="m-plus">m+</button>
+                <button data-key="m-minus">m-</button>
+                <button data-key="mr">mr</button>
+
+                <button data-key="recip">1/x</button>
+                <button data-key="square">x²</button>
+                <button data-key="cube">x³</button>
+                <button data-key="pow">xʸ</button>
+                <button data-key="ac">AC</button>
+                <button data-key="back">⌫</button>
+                <button data-key="negate">±</button>
+                <button class="op" data-key="div">÷</button>
+
+                <button data-key="fact">x!</button>
+                <button data-key="sqrt">√</button>
+                <button data-key="yroot">ʸ√x</button>
+                <button data-key="log">log</button>
+                <button data-key="1">1</button>
+                <button data-key="2">2</button>
+                <button data-key="3">3</button>
+                <button class="op" data-key="mul">x</button>
+
+                <button data-key="sin">sin</button>
+                <button data-key="cos">cos</button>
+                <button data-key="tan">tan</button>
+                <button data-key="ln">ln</button>
+                <button data-key="4">4</button>
+                <button data-key="5">5</button>
+                <button data-key="6">6</button>
+                <button class="op" data-key="sub">-</button>
+
+                <button data-key="sinh">sinh</button>
+                <button data-key="cosh">cosh</button>
+                <button data-key="tanh">tanh</button>
+                <button data-key="exp">eˣ</button>
+                <button data-key="7">7</button>
+                <button data-key="8">8</button>
+                <button data-key="9">9</button>
+                <button class="op" data-key="add">+</button>
+
+                <button data-key="deg">Deg</button>
+                <button data-key="pi">π</button>
+                <button data-key="ee">EE</button>
+                <button data-key="rand">Rand</button>
+                <button data-key="percent">%</button>
+                <button data-key="0">0</button>
+                <button data-key="decimal">.</button>
+                <button class="op equals" data-key="equals">=</button>
+            </div>
+        </div>
+
+        <div id="history-overlay" class="hidden">
+            <div id="history-panel">
+                <div id="history-panel-header">
+                    <span>History</span>
+                    <div class="history-header-actions">
+                        <button data-key="history-clear" title="Clear history">🗑</button>
+                        <button data-key="history-close" title="Close">✕</button>
+                    </div>
+                </div>
+                <ul id="history-list"></ul>
+            </div>
+        </div>
+
+    <script src="app.js"></script>
+    </body>
+</html>
